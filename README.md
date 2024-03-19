@@ -1,6 +1,6 @@
 # Name Project
 
-Description about the project.
+App para la gestion de reuniones entre lideres con sus liderados.
 
 ### Stack:
 
@@ -35,8 +35,6 @@ Make use of it running the script
 after adding your changes to stage phase.
 
 ### GIT rules:
-
-Write good commit message, use [imperative mood](https://en.wikipedia.org/wiki/Imperative_mood) and use the body to explain what and why as opposed to how.
 
 Write good commit message, use [imperative mood](https://en.wikipedia.org/wiki/Imperative_mood) and use the body to explain what and why as opposed to how.
 
