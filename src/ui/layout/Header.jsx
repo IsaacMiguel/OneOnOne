@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 const SHeader = styled.header`
   width: 100dvw;
-  background: ${props => props.theme.colors.primary}
+  background: ${(props) => props.theme.colors.primary};
 `
 
 /**

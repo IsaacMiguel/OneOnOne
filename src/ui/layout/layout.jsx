@@ -7,9 +7,7 @@ export const Layout = ({ children }) => {
   return (
     <>
       <Header />
-      <main role="main">
-        {children}
-      </main>
+      <main role="main">{children}</main>
       <footer role="footer">
         <h1>footer</h1>
       </footer>

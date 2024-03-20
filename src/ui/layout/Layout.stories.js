@@ -1,4 +1,4 @@
-import { Layout } from './layout'
+import { Layout } from "./layout"
 
 export default {
   component: Layout,
@@ -6,6 +6,6 @@ export default {
 
 export const Primary = {
   args: {
-    children: "Main content"
-  }
+    children: "Main content",
+  },
 }

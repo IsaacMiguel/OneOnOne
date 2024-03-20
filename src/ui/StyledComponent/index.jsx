@@ -1,15 +1,11 @@
-import { ThemeProvider } from 'styled-components'
-import * as constants from './constants'
+import { ThemeProvider } from "styled-components"
+import * as constants from "./constants"
 
 /**
  * @typedef StyledComponent
- * @type {HTMLElement} 
+ * @type {HTMLElement}
  * @property {ChildNode} children - an html element
  */
 export const StyledComponent = ({ children }) => {
-  return (
-    <ThemeProvider theme={{ ...constants }}>
-      {children}
-    </ThemeProvider >
-  )
+  return <ThemeProvider theme={{ ...constants }}>{children}</ThemeProvider>
 }
