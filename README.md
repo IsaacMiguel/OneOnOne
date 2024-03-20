@@ -1,4 +1,4 @@
-# Name Project
+# One on One
 
 App para la gestion de reuniones entre lideres con sus liderados.
 
