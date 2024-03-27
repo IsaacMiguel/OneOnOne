@@ -1,4 +1,6 @@
-import { Header } from "./Header"
+import React from 'react'
+
+import { Header } from "./Header.jsx"
 
 /**
  * Main layout for the app
