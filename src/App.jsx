@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react"
 
 import { users } from "./data"
 import { Layout } from "./ui/layout/layout"
