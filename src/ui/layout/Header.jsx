@@ -7,6 +7,8 @@ const SHeader = styled.header`
   background: ${(props) => props.theme.colors.primary};
 `
 
+const hariaHeader = "header"
+
 /**
  * @typedef Header
  * @type {HTMLElement}
@@ -14,7 +16,7 @@ const SHeader = styled.header`
  */
 export const Header = ({ title, }) => {
   return (
-    <SHeader role={"header"}>
+    <SHeader role={hariaHeader}>
       <h1>{title}</h1>
     </SHeader>
   )

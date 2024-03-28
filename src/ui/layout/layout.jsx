@@ -2,6 +2,8 @@ import React from "react"
 
 import { Header } from "./Header.jsx"
 
+const ariaFooter = "footer"
+
 /**
  * @typedef Layout
  * @type {HTMLElement}
@@ -12,7 +14,7 @@ export const Layout = ({ children, }) => {
     <>
       <Header title={"Header Title"} />
       <main role="main">{children}</main>
-      <footer role="footer">
+      <footer role={ariaFooter}>
         <h1>footer</h1>
       </footer>
     </>
