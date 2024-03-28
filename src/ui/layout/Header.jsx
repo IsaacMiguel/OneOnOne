@@ -12,7 +12,7 @@ const SHeader = styled.header`
  * @type {HTMLElement}
  * @property {String} title
  */
-export const Header = ({ title }) => {
+export const Header = ({ title, }) => {
   return (
     <SHeader role={"header"}>
       <h1>{title}</h1>

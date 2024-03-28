@@ -4,4 +4,4 @@ export const colors = {
   primary: "#1ea7fd",
 }
 
-export const sizes = [8, 16, 24, 32]
+export const sizes = [8, 16, 24, 32,]

@@ -7,7 +7,7 @@ import { Header } from "./Header.jsx"
  * @type {HTMLElement}
  * @property {HTMLElement} children
  */
-export const Layout = ({ children }) => {
+export const Layout = ({ children, }) => {
   return (
     <>
       <Header title={"Header Title"} />

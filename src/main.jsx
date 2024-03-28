@@ -15,7 +15,7 @@ if (process.env.NODE_ENV !== "production") {
         <StyledComponent>
           <App />
         </StyledComponent>
-      </React.StrictMode>,
+      </React.StrictMode>
     )
   })
 } else {
@@ -26,6 +26,6 @@ if (process.env.NODE_ENV !== "production") {
       <StyledComponent>
         <App />
       </StyledComponent>
-    </React.StrictMode>,
+    </React.StrictMode>
   )
 }

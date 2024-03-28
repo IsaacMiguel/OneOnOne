@@ -8,6 +8,6 @@ import * as constants from "./constants"
  * @type {HTMLElement}
  * @property {ChildNode} children - an html element
  */
-export const StyledComponent = ({ children }) => {
-  return <ThemeProvider theme={{ ...constants }}>{children}</ThemeProvider>
+export const StyledComponent = ({ children, }) => {
+  return <ThemeProvider theme={{ ...constants, }}>{children}</ThemeProvider>
 }

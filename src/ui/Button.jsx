@@ -13,10 +13,10 @@ export const Button = ({ primary, backgroundColor, size, label, ...props }) => {
   return (
     <button
       type="button"
-      className={["storybook-button", `storybook-button--${size}`, mode].join(
-        " ",
+      className={["storybook-button", `storybook-button--${size}`, mode,].join(
+        " "
       )}
-      style={backgroundColor && { backgroundColor }}
+      style={backgroundColor && { backgroundColor, }}
       {...props}
     >
       {label}
@@ -36,7 +36,7 @@ Button.propTypes = {
   /**
    * How large should the button be?
    */
-  size: PropTypes.oneOf(["small", "medium", "large"]),
+  size: PropTypes.oneOf(["small", "medium", "large",]),
   /**
    * Button contents
    */
