@@ -6,24 +6,16 @@ module.exports = {
     "plugin:storybook/recommended",
   ],
   rules: {
-    quotes: ["error", "double"],
-    semi: ["error", "never"],
-    "space-before-function-paren": ["error", "never"],
-    "comma-dangle": [
-      "error",
-      {
-        arrays: "always",
-        objects: "always",
-        imports: "never",
-        exports: "never",
-        functions: "never",
-      },
-    ],
+    quotes: ["error", "double",],
+    semi: ["error", "never",],
+    "space-before-function-paren": ["error", "never",],
+    "comma-dangle": ["error", "always",],
+    "react/prop-types": 0,
   },
   settings: {
     react: {
       version: "detect",
     },
   },
-  plugins: ["jsx-a11y"],
+  plugins: ["jsx-a11y",],
 }

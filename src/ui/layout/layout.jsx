@@ -1,14 +1,20 @@
-import { Header } from "./Header"
+import React from "react"
+
+import { Header, } from "./Header.jsx"
+
+const ariaFooter = "footer"
 
 /**
- * Main layout for the app
+ * @typedef Layout
+ * @type {HTMLElement}
+ * @property {HTMLElement} children
  */
-export const Layout = ({ children }) => {
+export const Layout = ({ children, },) => {
   return (
     <>
-      <Header />
+      <Header title={"Header Title"} />
       <main role="main">{children}</main>
-      <footer role="footer">
+      <footer role={ariaFooter}>
         <h1>footer</h1>
       </footer>
     </>
