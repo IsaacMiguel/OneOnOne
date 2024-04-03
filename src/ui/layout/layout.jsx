@@ -1,6 +1,6 @@
 import React from "react"
 
-import { Header } from "./Header.jsx"
+import { Header, } from "./Header.jsx"
 
 const ariaFooter = "footer"
 
@@ -9,7 +9,7 @@ const ariaFooter = "footer"
  * @type {HTMLElement}
  * @property {HTMLElement} children
  */
-export const Layout = ({ children, }) => {
+export const Layout = ({ children, },) => {
   return (
     <>
       <Header title={"Header Title"} />

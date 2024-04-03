@@ -9,16 +9,7 @@ module.exports = {
     quotes: ["error", "double",],
     semi: ["error", "never",],
     "space-before-function-paren": ["error", "never",],
-    "comma-dangle": [
-      "error",
-      {
-        arrays: "always",
-        objects: "always",
-        imports: "never",
-        exports: "never",
-        functions: "never",
-      },
-    ],
+    "comma-dangle": ["error", "always",],
     "react/prop-types": 0,
   },
   settings: {
