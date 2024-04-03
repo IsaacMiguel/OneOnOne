@@ -1,16 +1,16 @@
-import { createGlobalStyle, ThemeProvider } from "styled-components"
-import { withThemeFromJSXProvider } from "@storybook/addon-themes"
+import { createGlobalStyle, ThemeProvider } from "styled-components";
+import { withThemeFromJSXProvider } from "@storybook/addon-themes";
 
 /* TODO: update import for your custom theme configurations */
 // import { lightTheme, darkTheme } from '../path/to/themes';
-import { StyledComponent } from "../src/ui/StyledComponent"
+import { StyledComponent } from "../src/ui/StyledComponent";
 
 /* TODO: replace with your own global styles, or remove */
 const GlobalStyles = createGlobalStyle`
   body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
-  `
+  `;
 /** @type { import('@storybook/react').Preview } */
 const preview = {
   parameters: {
@@ -34,6 +34,6 @@ const preview = {
       GlobalStyles,
     }),
   ],
-}
+};
 
-export default preview
+export default preview;
