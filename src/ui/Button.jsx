@@ -6,17 +6,17 @@ import "./button.css"
 /**
  * Primary UI component for user interaction
  */
-export const Button = ({ primary, backgroundColor, size, label, ...props }) => {
+export const Button = ({ primary, backgroundColor, size, label, ...props },) => {
   const mode = primary
     ? "storybook-button--primary"
     : "storybook-button--secondary"
   return (
     <button
       type="button"
-      className={["storybook-button", `storybook-button--${size}`, mode].join(
+      className={["storybook-button", `storybook-button--${size}`, mode,].join(
         " ",
       )}
-      style={backgroundColor && { backgroundColor }}
+      style={backgroundColor && { backgroundColor, }}
       {...props}
     >
       {label}
@@ -36,7 +36,7 @@ Button.propTypes = {
   /**
    * How large should the button be?
    */
-  size: PropTypes.oneOf(["small", "medium", "large"]),
+  size: PropTypes.oneOf(["small", "medium", "large",],),
   /**
    * Button contents
    */
