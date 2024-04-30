@@ -9,7 +9,14 @@ export const AppRoutes = () => {
     <BrowserRouter basename="/">
       <Routes>
         <Route path="/" Component={Home} />
-        <Route path="/private" element={<PrivateRouteGuard><Private /></PrivateRouteGuard>} />
+        <Route
+          path="/private"
+          element={
+            <PrivateRouteGuard>
+              <Private />
+            </PrivateRouteGuard>
+          }
+        />
       </Routes>
     </BrowserRouter>
   )
