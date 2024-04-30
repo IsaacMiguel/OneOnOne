@@ -5,7 +5,7 @@ import React, { createContext, useState, } from "react"
  */
 const defaultGContext = {
   globalData: {
-    isLogged: false,
+    isLogged: true,
   },
   setIsLogged: () => {},
 }
