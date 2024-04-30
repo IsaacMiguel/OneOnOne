@@ -7,7 +7,7 @@ const defaultGContext = {
   globalData: {
     isLogged: false,
   },
-  setIsLogged: () => { },
+  setIsLogged: () => {},
 }
 
 /**
@@ -30,10 +30,12 @@ export const GlobalProvider = ({ children, },) => {
   const setIsLogged = (isLogged,) => setData({ isLogged, },)
 
   return (
-    <GlobalContext.Provider value={{
-      setIsLogged,
-      globalData,
-    }}>
+    <GlobalContext.Provider
+      value={{
+        setIsLogged,
+        globalData,
+      }}
+    >
       {children}
     </GlobalContext.Provider>
   )

@@ -22,7 +22,8 @@ export const Layout = ({ children, },) => {
     <Container>
       <Header title={"Header Title"} />
       <main role="main">
-        {JSON.stringify(global, null, 2,)}<button onClick={handleOnClick}>Loged</button>
+        {JSON.stringify(global, null, 2,)}
+        <button onClick={handleOnClick}>Loged</button>
         {children}
       </main>
       <footer>
