@@ -33,7 +33,7 @@ const SHeader = styled.header`
   }
 
   .active {
-    background-color: #04AA6D;
+    background-color: #04aa6d;
   }
 `
 
@@ -45,12 +45,20 @@ export const Header = () => {
   return (
     <SHeader>
       <ul>
-        <li><a href="#user">User</a></li>
-        <li><a href="#meeting">Meeting</a></li>
-        <li><a href="#followup">Follow Up</a></li>
-        <li><a href="#actions">Actions</a></li>
+        <li>
+          <a href="#user">User</a>
+        </li>
+        <li>
+          <a href="#meeting">Meeting</a>
+        </li>
+        <li>
+          <a href="#followup">Follow Up</a>
+        </li>
+        <li>
+          <a href="#actions">Actions</a>
+        </li>
       </ul>
-      <img src={oneOnOneLogo} alt="navbar-one-on-one-logo"/>
+      <img src={oneOnOneLogo} alt="navbar-one-on-one-logo" />
     </SHeader>
   )
 }

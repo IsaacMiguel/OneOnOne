@@ -20,9 +20,7 @@ export const Layout = ({ children, },) => {
   return (
     <Container>
       <Header />
-      <main role="main">
-        {children}
-      </main>
+      <main role="main">{children}</main>
     </Container>
   )
 }

@@ -10,7 +10,7 @@ const defaultGContext = {
   globalData: {
     isLogged: true,
   },
-  setIsLogged: () => { },
+  setIsLogged: () => {},
 }
 
 /**
