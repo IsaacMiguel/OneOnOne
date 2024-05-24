@@ -11,7 +11,7 @@ const Btn = styled.button`
 const Loader = styled.span`
   width: 1.5rem;
   height: 1.5rem;
-  border: 3px solid #FFF;
+  border: 3px solid #fff;
   border-radius: 50%;
   display: inline-block;
   position: relative;
@@ -19,7 +19,7 @@ const Loader = styled.span`
   animation: rotation 1.5s linear infinite;
 
   &:after {
-    content: '';  
+    content: "";
     box-sizing: border-box;
     position: absolute;
     left: 50%;
@@ -29,7 +29,7 @@ const Loader = styled.span`
     height: 1.3rem;
     border-radius: 50%;
     border: 3px solid;
-    border-color: #FF3D00 transparent;
+    border-color: #ff3d00 transparent;
   }
 
   @keyframes rotation {
@@ -39,7 +39,7 @@ const Loader = styled.span`
     100% {
       transform: rotate(360deg);
     }
-  } 
+  }
 `
 
 /**
@@ -50,7 +50,7 @@ const Loader = styled.span`
 export function Button({ label, isLoading = false, },) {
   return (
     <Btn disabled={isLoading}>
-      {isLoading ? <Loader className="loader"/> : label}
+      {isLoading ? <Loader className="loader" /> : label}
     </Btn>
   )
 }
