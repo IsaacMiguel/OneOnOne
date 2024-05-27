@@ -12,7 +12,5 @@ const TextField = styled.input`
  * @returns {import("react").ReactElement}
  */
 export function Text() {
-  return (
-    <TextField type="text" />
-  )
+  return <TextField type="text" />
 }
