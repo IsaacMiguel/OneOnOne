@@ -1,11 +1,11 @@
 import React from "react"
+import styled from "styled-components"
 
 import { Header, } from "./../Header"
-import styled from "styled-components"
+import { Main, } from "../Main"
 
 const Container = styled.div`
   main {
-    display: block;
     margin: auto;
     max-width: 1800px;
   }
@@ -20,7 +20,7 @@ export const Layout = ({ children, },) => {
   return (
     <Container>
       <Header />
-      <main role="main">{children}</main>
+      <Main>{children}</Main>
     </Container>
   )
 }
