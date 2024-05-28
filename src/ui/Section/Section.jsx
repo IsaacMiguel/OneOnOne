@@ -32,11 +32,9 @@ export default function Section({ children, sectionName, },) {
     <SectionContainer>
       <details>
         <Heading>
-          <span>
-            {sectionName}
-          </span>
+          <span>{sectionName}</span>
         </Heading>
-        { children }
+        {children}
       </details>
     </SectionContainer>
   )
