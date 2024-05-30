@@ -6,6 +6,7 @@ import { Main, } from "../Main"
 
 const Container = styled.div`
   main {
+    padding: 2rem 0rem;
     margin: auto;
     max-width: 1800px;
   }
