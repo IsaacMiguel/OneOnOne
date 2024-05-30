@@ -43,13 +43,15 @@ const Loader = styled.span`
 `
 
 /**
- * @property {String} label
- * @property {Boolean} [isLoading]
+ * @param {Object} config
+ * @param {String} config.label
+ * @param {Boolean} [config.isLoading]
+ * @param {("button" | "submit" | "reset" | undefined)} [config.type]
  * @returns {import("react").ReactElement}
  */
-export function Button({ label, isLoading = false, },) {
+export function Button({ label, isLoading = false, type = "button", },) {
   return (
-    <Btn disabled={isLoading}>
+    <Btn disabled={isLoading} type={type}>
       {isLoading ? <Loader className="loader" /> : label}
     </Btn>
   )

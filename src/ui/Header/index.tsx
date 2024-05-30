@@ -46,7 +46,7 @@ export const Header = () => {
     <SHeader>
       <ul>
         <li>
-          <a href="#user">User</a>
+          <a href="/user">User</a>
         </li>
         <li>
           <a href="#meeting">Meeting</a>
